@@ -1,6 +1,6 @@
 .btn {
   font-size: $btn-font-size;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: $btn-padding-y $btn-padding-x;
   outline: none;
   &.btn-rounded {
@@ -40,6 +40,3 @@
     @include btn-outline-variant($value);
   }
 }
-
-
-
