@@ -1,0 +1,142 @@
+/*!
+ * Bootstrap v5.2 (https://getbootstrap.com/)
+ */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Navigation styles */
+nav {
+  font-family: jost;
+  font-size: 1.3rem;
+  color: blueviolet;
+}
+
+.navbar {
+  background-color: #f7f8fa;
+  transition: background-color 0.7s ease-in-out;
+}
+
+a.nav-link {
+  color: rgb(0, 0, 2);
+}
+
+.navbar.scrolled {
+  background-color: #b5b8ee;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.nav-link.scrolled {
+  color: rgb(13, 9, 61);
+}
+
+/* Header styles */
+header {
+  background-color: #f7f8fa;
+  padding: 50px;
+  text-align: center;
+  color: rgb(14, 11, 11);
+}
+
+.hero__title {
+  font-family: "Source Serif Pro", serif;
+  font-size: 4rem;
+}
+
+.hero__subtitle {
+  font-family: jost;
+}
+
+.hero__text {
+  font-family: jost;
+}
+
+.subtitle {
+  font-size: 3rem;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .title {
+    font-size: 2rem; /* Reduced font size for small screens */
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .section-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Section styles */
+section {
+  background-color: #f7f8fa;
+}
+
+/* Card styles */
+.card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 150px; /* Adjust the desired height */
+  object-fit: contain; /* Adjust the image fit as needed */
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Additional custom styles */
+.dupla__dannae {
+  background-color: #20c997;
+}
+
+.features-overview .content-header {
+  padding: 78px 0px 48px 0px;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .features-overview .content-header {
+    padding: 60px 0px;
+  }
+}
+
+.features-overview .features-width {
+  flex-basis: 61%;
+}
+@media (max-width: 767px) {
+  .features-overview .features-width {
+    flex-basis: 100%;
+  }
+}
+
+.features-overview .img-icons {
+  transition: all 0.4s ease-in-out;
+}
+.features-overview .img-icons:hover {
+  transform: scale(1.1);
+}
